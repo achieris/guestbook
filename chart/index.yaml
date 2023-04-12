@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  nginx-chart:
+  guestbook:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-04-12T17:00:32.597250002+02:00"
+    appVersion: 0.0.1
+    created: "2023-04-12T18:07:40.927994262+02:00"
     description: A Helm chart for Kubernetes
-    digest: e2b321929a001f5b73dcca8003e131cf4fbfcec59fdfcb2b21e1e72a34ec8818
-    name: nginx-chart
+    digest: 1b4f46b12c9700908d8efe7ec2e8c723b90ff20ce41703057f471d1af5b5c908
+    name: guestbook
     type: application
     urls:
-    - https://achieris.github.io/product-demo-gitops/chart/nginx-chart-0.1.0.tgz
-    version: 0.1.0
-generated: "2023-04-12T17:00:32.597010022+02:00"
+    - https://achieris.github.io/product-demo-gitops/chart/guestbook-0.0.1.tgz
+    version: 0.0.1
+generated: "2023-04-12T18:07:40.9277096+02:00"
