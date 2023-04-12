@@ -1,0 +1,5 @@
+helmCharts:
+- name: nginx-chart
+  version: 0.1.0
+  repo: https://achieris.github.io/product-demo-gitops/chart
+  valuesFile: values-dev.yaml
