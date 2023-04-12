@@ -3,12 +3,12 @@ entries:
   nginx-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-12T16:21:53.158036052+02:00"
+    created: "2023-04-12T16:40:44.403571796+02:00"
     description: A Helm chart for Kubernetes
     digest: e2b321929a001f5b73dcca8003e131cf4fbfcec59fdfcb2b21e1e72a34ec8818
     name: nginx-chart
     type: application
     urls:
-    - https://github.com/achieris/product-demo-gitops/nginx-chart-0.1.0.tgz
+    - https://achieris.github.io/product-demo-gitops/nginx-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-12T16:21:53.157777963+02:00"
+generated: "2023-04-12T16:40:44.403327156+02:00"
