@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
-  tag: "0.2"
+  repository: image-registry.openshift-image-registry.svc:5000/openshift/httpd
+  tag: "latest"
 
 service:
   name: nginx-service
@@ -10,5 +10,3 @@ service:
   port: 8080
   targetPort: 8080
 
-env:
-  name: dev
