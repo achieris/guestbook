@@ -4,7 +4,7 @@ metadata:
   name: {{ .Chart.Name }}-route
 spec:
   port:
-    targetPort: http
+    targetPort: {{ .Values.service.targetPort }} 
   tls:
     insecureEdgeTerminationPolicy: Redirect
     termination: edge
