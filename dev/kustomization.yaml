@@ -3,5 +3,5 @@ kind: Kustomization
 helmCharts:
 - name: guestbook
   version: 0.0.2
-  repo: https://achieris.github.io/product-demo-gitops/chart
+  repo: https://achieris.github.io/guestbook/chart
   valuesFile: values-dev.yaml
